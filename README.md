@@ -1,5 +1,5 @@
 # Trabalho Final para a disciplina de Pesquisa Operacional
-## Equipe: Arthur Henrique da Silva - Ludmila Vinólia Guimarães Gomes
+## Equipe: Arthur Henrique da Silva @ArthurH35 - Ludmila Vinólia Guimarães Gomes @LudmilaGomes
 
 ### Conceito
 Resumo do Funcionamento - Branch-and-Bound: o algoritmo Branch-and-Bound foi pensado para vencer a dificuldade existente nas resoluções de problemas de programação linear inteira (onde as variáveis a serem encontradas são obrigatoriamente valores inteiros) ao utilizar uma 'relaxação linear', em que o modelo de PI proposto se torna um modelo de programação linear apenas, ou seja, a restrição de integralidade das variáveis é retirada para que seja encontrada a solução. Com a solução, o polígono de soluções viáveis para o modelo PL encontrado é dividido em duas partes, devido à inclusão de restrições que limitam o espaço (Branch) e retiram uma região em que uma das variáveis assume valores não inteiros. Esse processo é realizado de forma cíclica até que um valor ótimo com variáveis de valores inteiros seja encontrado. O algoritmo para de executar quando os modelos relaxados não podem ser solucionados, devido às podas que podem ocorrer (Bounds):
